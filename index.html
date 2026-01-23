@@ -1080,12 +1080,18 @@
 
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
-            const formData = new FormData(this);
+            
+            const formData = new URLSearchParams();
+            formData.append('form-name', 'contact');
+            formData.append('name', this.querySelector('[name="name"]').value);
+            formData.append('email', this.querySelector('[name="email"]').value);
+            formData.append('company', this.querySelector('[name="company"]').value);
+            formData.append('message', this.querySelector('[name="message"]').value);
 
             fetch('/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString()
+                body: formData.toString()
             })
             .then(response => {
                 if (response.ok) {
