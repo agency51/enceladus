@@ -1,0 +1,118 @@
+# Enceladus.ai
+
+> Enceladus.ai is an AI consulting business helping organisations navigate and implement AI effectively. Founded by Ian Lawton (CTO) and Dr Paul Gibson (PhD in AI), we combine 18+ years of digital transformation expertise with deep academic AI knowledge.
+
+## About
+
+Enceladus.ai is an AI consulting offshoot of Agency51 and PureNet—established UK digital agencies based in York. We launched Enceladus.ai in response to the rapid shift in how AI is transforming development and business operations.
+
+Our observation: development teams are barely writing code anymore. What used to take months now takes weeks or days. The value is shifting from implementation to consultancy, orchestration, and strategic guidance. Enceladus.ai helps organisations get ahead of this curve rather than being disrupted by it.
+
+We understand that AI implementation isn't about technology alone—it's about integration, change management, and measurable business outcomes. We've spent nearly two decades helping organisations navigate digital transformation. AI is the next chapter of that story.
+
+The name "Enceladus" comes from Saturn's moon, known for its ice geysers that shoot water into space—representing intelligence beneath the surface waiting to be unlocked.
+
+## Services
+
+### AI Strategy & Consulting
+
+Cut through the hype. We assess your operations, identify genuine AI opportunities, and build a roadmap that delivers measurable outcomes—not just impressive demos.
+
+This includes:
+- AI readiness assessments
+- Opportunity identification and prioritisation
+- Business case development
+- Implementation roadmaps
+- Change management planning
+
+### Tool Implementation
+
+From GitHub Copilot to custom GPTs, we implement AI development tools that genuinely accelerate your team. Configuration, training, and workflow integration included.
+
+This covers:
+- Development tool selection and setup
+- GitHub Copilot and similar coding assistants
+- Custom GPT development
+- Prompt engineering and optimisation
+- Workflow integration
+
+### Agent Development
+
+Purpose-built AI agents that automate complex workflows. We design, develop, and deploy agents that integrate with your existing systems and actually work.
+
+Capabilities include:
+- Autonomous agent design and development
+- System integration
+- Workflow automation
+- Custom agent training
+- Monitoring and maintenance
+
+### Training & Enablement
+
+Upskill your team to work effectively alongside AI. Practical, hands-on training that transforms how your people approach problems and produce work.
+
+Training programmes cover:
+- AI fundamentals for business leaders
+- Hands-on tool training
+- Prompt engineering workshops
+- Best practices and governance
+- Ongoing support and mentoring
+
+## Our Approach
+
+Every engagement follows a clear path from understanding to delivery:
+
+### 1. Discover
+
+We map your operations, understand your pain points, and identify where AI can genuinely add value—not just where it sounds impressive.
+
+### 2. Design
+
+We build solutions that fit your reality. Not off-the-shelf approaches, but architectures designed around your specific technology, people, and processes.
+
+### 3. Deliver
+
+We implement, test, and refine. Working alongside your team to ensure knowledge transfer and sustainable capability building.
+
+### 4. Evolve
+
+AI capabilities mature. We help you stay current, optimise what's working, and identify new opportunities as they emerge.
+
+## Team
+
+### Ian Lawton - CTO & Co-founder
+
+Technical leader with 18+ years in digital transformation. Combines deep systems architecture expertise with a practical understanding of how AI reshapes teams, workflows, and what's possible.
+
+Ian is also CTO of Agency51, a UK-based ecommerce development agency specialising in BigCommerce, B2B commerce, and headless implementations.
+
+### Dr Paul Gibson - Director & Co-founder
+
+PhD in Artificial Intelligence with a passion for making complex technology accessible. Bridges the gap between cutting-edge research and practical business outcomes.
+
+Paul brings deep academic expertise and rigorous analytical thinking to AI strategy and implementation.
+
+## Heritage
+
+Enceladus.ai is part of the PureNet Group, which includes:
+
+- **PureNet** (https://www.purenet.co.uk): Ecommerce and portal solutions agency delivering enterprise solutions since 2006
+- **Agency51** (https://www.agency51.co.uk): UK-based ecommerce development agency specialising in BigCommerce, B2B commerce, and headless implementations
+
+This heritage matters. We understand that AI implementation isn't about technology alone; it's about integration, change management, and measurable business outcomes.
+
+## Contact Information
+
+- **Email**: hello@enceladus.ai
+- **Phone**: 01onal 636 677
+- **Location**: York, UK
+- **Website**: https://enceladus.ai
+
+## Technical Details
+
+- Single-page marketing website
+- Static HTML hosted on Netlify
+- Neural network canvas animation (pure JavaScript)
+- Contact form with Netlify Forms integration
+- Dark cosmic aesthetic with teal/cyan accents
+- Fonts: Outfit (body), Space Mono (accents), Syne (logo)

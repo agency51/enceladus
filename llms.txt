@@ -1,0 +1,37 @@
+# Enceladus.ai
+
+> Enceladus.ai is an AI consulting business helping organisations navigate and implement AI effectively. Founded by Ian Lawton (CTO) and Dr Paul Gibson (PhD in AI), we combine 18+ years of digital transformation expertise with deep academic AI knowledge.
+
+We are an offshoot of Agency51 and PureNet, established UK ecommerce and digital agencies based in York. Our focus is on practical AI implementation rather than theoretical frameworks.
+
+## Services
+
+- **AI Strategy & Consulting**: We assess operations, identify genuine AI opportunities, and build roadmaps that deliver measurable outcomes
+- **Tool Implementation**: From GitHub Copilot to custom GPTs, we implement AI development tools with configuration, training, and workflow integration
+- **Agent Development**: Purpose-built AI agents that automate complex workflows, integrated with existing systems
+- **Training & Enablement**: Practical, hands-on training that transforms how teams approach problems and produce work
+
+## Approach
+
+Our engagement process follows four steps:
+
+1. **Discover**: Map operations, understand pain points, identify where AI adds genuine value
+2. **Design**: Build solutions that fit your reality—technology, people, and processes
+3. **Deliver**: Implement, test, and refine alongside your team with knowledge transfer
+4. **Evolve**: Ongoing support to stay current, optimise, and identify new opportunities
+
+## Team
+
+- **Ian Lawton** - CTO & Co-founder. Technical leader with 18+ years in digital transformation. Deep systems architecture expertise with practical understanding of how AI reshapes teams and workflows.
+- **Dr Paul Gibson** - Director & Co-founder. PhD in Artificial Intelligence. Bridges the gap between cutting-edge research and practical business outcomes.
+
+## Contact
+
+- Email: hello@enceladus.ai
+- Phone: 01904 636 677
+- Location: York, UK
+
+## Related
+
+- [Agency51](https://www.agency51.co.uk): UK-based ecommerce development agency specialising in BigCommerce, B2B commerce, and headless implementations
+- [PureNet](https://www.purenet.co.uk): Ecommerce and portal solutions agency delivering enterprise solutions since 2006
