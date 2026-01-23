@@ -58,10 +58,15 @@
             right: 0;
             z-index: 100;
             padding: 1.5rem 4rem;
+            background: linear-gradient(to bottom, rgba(10, 10, 15, 0.95), transparent);
+        }
+
+        .nav-inner {
+            max-width: 1400px;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: linear-gradient(to bottom, rgba(10, 10, 15, 0.95), transparent);
         }
 
         .logo {
@@ -697,15 +702,17 @@
     <canvas id="neural-canvas"></canvas>
 
     <nav>
-        <a href="#" class="logo">
-            <span class="logo-text">enceladus<span>.ai</span></span>
-        </a>
-        <ul class="nav-links">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#approach">Approach</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="nav-inner">
+            <a href="#" class="logo">
+                <span class="logo-text">enceladus<span>.ai</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#approach">Approach</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <section class="hero">
@@ -798,7 +805,7 @@
                     <div class="team-info">
                         <h4>Ian Lawton</h4>
                         <div class="team-role">CTO & Co-founder</div>
-                        <p class="team-bio">Technical architect with deep expertise in ecommerce platforms, B2B systems, and enterprise integrations. Leading AI strategy and implementation.</p>
+                        <p class="team-bio">Technical leader with 18+ years in digital transformation. Combines deep systems architecture expertise with a practical understanding of how AI reshapes teams, workflows, and what's possible.</p>
                     </div>
                 </div>
                 <div class="team-card">
@@ -806,7 +813,7 @@
                     <div class="team-info">
                         <h4>Dr Paul Gibson</h4>
                         <div class="team-role">Director & Co-founder</div>
-                        <p class="team-bio">PhD in Artificial Intelligence. Brings deep academic expertise and rigorous analytical thinking to AI strategy and implementation.</p>
+                        <p class="team-bio">PhD in Artificial Intelligence with a passion for making complex technology accessible. Bridges the gap between cutting-edge research and practical business outcomes.</p>
                     </div>
                 </div>
             </div>
