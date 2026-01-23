@@ -97,7 +97,7 @@ Paul brings deep academic expertise and rigorous analytical thinking to AI strat
 Enceladus.ai is part of the PureNet Group, which includes:
 
 - **PureNet** (https://www.purenet.co.uk): Ecommerce and portal solutions agency delivering enterprise solutions since 2006
-- **Agency51** (https://www.agency51.co.uk): UK-based ecommerce development agency specialising in BigCommerce, B2B commerce, and headless implementations
+- **Agency51** (https://www.agency51.com): UK-based ecommerce development agency specialising in BigCommerce, B2B commerce, and headless implementations
 
 This heritage matters. We understand that AI implementation isn't about technology alone; it's about integration, change management, and measurable business outcomes.
 
