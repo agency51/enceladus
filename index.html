@@ -331,6 +331,91 @@
             line-height: 1.7;
         }
 
+        /* Case Studies Section */
+        .case-studies {
+            padding: 8rem 4rem;
+        }
+
+        .case-studies-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .case-studies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 2rem;
+        }
+
+        .case-study-card {
+            background: rgba(18, 18, 26, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            text-decoration: none;
+            display: block;
+        }
+
+        .case-study-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(78, 205, 196, 0.3);
+        }
+
+        .case-study-image {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .case-study-content {
+            padding: 2rem;
+        }
+
+        .case-study-client {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--ice-glow);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 0.75rem;
+        }
+
+        .case-study-card h3 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .case-study-card p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        .case-study-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--ice-glow);
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: gap 0.3s ease;
+        }
+
+        .case-study-card:hover .case-study-link {
+            gap: 0.75rem;
+        }
+
+        .case-study-link svg {
+            width: 18px;
+            height: 18px;
+        }
+
         /* About Section */
         .about {
             padding: 8rem 4rem;
@@ -740,6 +825,7 @@
             </a>
             <ul class="nav-links">
                 <li><a href="#services">Services</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#approach">Approach</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -803,6 +889,46 @@
                     <h3>Training & Enablement</h3>
                     <p>Upskill your team to work effectively alongside AI. Practical, hands-on training that transforms how your people approach problems and produce work.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-studies" id="case-studies">
+        <div class="case-studies-inner">
+            <span class="section-label">Case Studies</span>
+            <h2 class="section-title">Real impact with real organisations</h2>
+            <p class="section-subtitle">See how we've helped leadership teams move from AI uncertainty to strategic clarity.</p>
+
+            <div class="case-studies-grid">
+                <a href="/case-studies/immediate-media.html" class="case-study-card">
+                    <img src="/images/Immediate_media_2.webp" alt="Immediate Media AI Opportunity Framework" class="case-study-image">
+                    <div class="case-study-content">
+                        <div class="case-study-client">Immediate Media</div>
+                        <h3>AI Strategy & Opportunity Discovery for a Leading Magazine Publisher</h3>
+                        <p>Helping one of the UK's largest specialist content publishers cut through AI hype to identify genuine opportunities across editorial, commercial, and operations.</p>
+                        <span class="case-study-link">
+                            Read case study
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+
+                <a href="/case-studies/nidec-drives.html" class="case-study-card">
+                    <img src="/images/Nidec_Drives_2.webp" alt="Nidec Drives AI Opportunity Pyramid" class="case-study-image">
+                    <div class="case-study-content">
+                        <div class="case-study-client">Nidec Drives</div>
+                        <h3>Building AI Literacy and Strategic Clarity at the Industrial AI Inflection Point</h3>
+                        <p>Equipping senior leadership at a global industrial motor control leader with a shared understanding of where AI can practically create value.</p>
+                        <span class="case-study-link">
+                            Read case study
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -892,7 +1018,7 @@
             <div class="contact-methods">
                 <div class="contact-method">
                     <div class="contact-method-label">Email</div>
-                    <a href="mailto:hello@enceladus.ai" class="contact-method-value">hello@enceladus.ai</a>
+                    <a href="/cdn-cgi/l/email-protection#2048454c4c4f60454e43454c414455530e4149" class="contact-method-value"><span class="__cf_email__" data-cfemail="6008050c0c0f20050e03050c010415134e0109">[email&#160;protected]</span></a>
                 </div>
                 <div class="contact-method">
                     <div class="contact-method-label">Phone</div>
@@ -945,7 +1071,7 @@
         </div>
     </footer>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // Neural Network Animation
         const canvas = document.getElementById('neural-canvas');
         const ctx = canvas.getContext('2d');
@@ -1098,14 +1224,4 @@
                     contactForm.style.display = 'none';
                     formSuccess.style.display = 'block';
                 } else {
-                    throw new Error('Form submission failed');
-                }
-            })
-            .catch(error => {
-                alert('Something went wrong. Please try again.');
-                console.error(error);
-            });
-        });
-    </script>
-</body>
-</html>
+                    throw new Error('Form submi

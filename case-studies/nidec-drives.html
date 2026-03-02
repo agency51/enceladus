@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nidec Drives Case Study | Enceladus.ai</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --deep-space: #0a0a0f;
+            --void: #12121a;
+            --nebula: #1a1a2e;
+            --ice-glow: #4ecdc4;
+            --ice-bright: #7fffe0;
+            --ice-dim: #2a9d8f;
+            --star-white: #e8e8e8;
+            --moon-grey: #8a8a9a;
+            --text-primary: #f0f0f5;
+            --text-secondary: #a0a0b0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--deep-space);
+            color: var(--text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 1.5rem 4rem;
+            background: linear-gradient(to bottom, rgba(10, 10, 15, 0.95), transparent);
+        }
+
+        .nav-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+        }
+
+        .logo-text {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            letter-spacing: -0.5px;
+        }
+
+        .logo-text span {
+            color: var(--ice-glow);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            transition: color 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+
+        .nav-links a:hover {
+            color: var(--ice-glow);
+        }
+
+        /* Case Study Hero */
+        .case-study-hero {
+            padding: 10rem 4rem 4rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: var(--ice-glow);
+        }
+
+        .back-link svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        .case-study-meta {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .client-logo {
+            height: 50px;
+            width: auto;
+        }
+
+        .case-study-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--ice-glow);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .case-study-hero h1 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            max-width: 900px;
+        }
+
+        .case-study-intro {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 800px;
+            font-weight: 300;
+        }
+
+        /* Feature Image */
+        .feature-image {
+            padding: 0 4rem 4rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .feature-image img {
+            width: 100%;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        /* Case Study Content */
+        .case-study-content {
+            padding: 4rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .content-section {
+            margin-bottom: 4rem;
+        }
+
+        .content-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .content-section h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .content-section h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            margin-top: 2rem;
+            color: var(--text-primary);
+        }
+
+        .content-section p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 1.25rem;
+            line-height: 1.8;
+        }
+
+        .content-section ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-section li {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+            padding-left: 1.5rem;
+            position: relative;
+            line-height: 1.7;
+        }
+
+        .content-section li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.6rem;
+            width: 6px;
+            height: 6px;
+            background: var(--ice-glow);
+            border-radius: 50%;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: rgba(78, 205, 196, 0.08);
+            border: 1px solid rgba(78, 205, 196, 0.2);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .highlight-box h4 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--ice-glow);
+            margin-bottom: 1rem;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0.75rem;
+        }
+
+        .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight-box ul {
+            margin-bottom: 0;
+        }
+
+        /* Deliverables Grid */
+        .deliverables-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .deliverable-card {
+            background: rgba(18, 18, 26, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+
+        .deliverable-card h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+        }
+
+        .deliverable-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        /* Quote */
+        .quote-block {
+            border-left: 3px solid var(--ice-glow);
+            padding-left: 2rem;
+            margin: 2.5rem 0;
+        }
+
+        .quote-block p {
+            font-size: 1.25rem;
+            font-style: italic;
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        /* Outcome Grid */
+        .outcome-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .outcome-item {
+            background: rgba(18, 18, 26, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+
+        .outcome-item p {
+            margin-bottom: 0;
+            font-size: 1rem;
+        }
+
+        /* Next Steps */
+        .next-steps {
+            background: rgba(18, 18, 26, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 16px;
+            padding: 2.5rem;
+            margin-top: 3rem;
+        }
+
+        .next-steps h3 {
+            margin-top: 0;
+            color: var(--ice-glow);
+        }
+
+        /* CTA Section */
+        .case-study-cta {
+            padding: 6rem 4rem;
+            text-align: center;
+            background: linear-gradient(to bottom, transparent, rgba(26, 26, 46, 0.5));
+        }
+
+        .case-study-cta h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .case-study-cta p {
+            color: var(--text-secondary);
+            font-size: 1.15rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            font-family: inherit;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--ice-glow), var(--ice-dim));
+            color: var(--deep-space);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 40px rgba(78, 205, 196, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            padding: 3rem 4rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .footer-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-text {
+            font-size: 0.9rem;
+            color: var(--moon-grey);
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .footer-links a {
+            font-size: 0.9rem;
+            color: var(--moon-grey);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--ice-glow);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav {
+                padding: 1rem 1.5rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .case-study-hero,
+            .feature-image,
+            .case-study-content,
+            .case-study-cta {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
+
+            .deliverables-grid,
+            .outcome-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="/" class="logo">
+                <span class="logo-text">enceladus<span>.ai</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#case-studies">Case Studies</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#approach">Approach</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="case-study-hero">
+        <a href="/#case-studies" class="back-link">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            </svg>
+            Back to case studies
+        </a>
+        
+        <div class="case-study-meta">
+            <span class="case-study-label">Case Study</span>
+        </div>
+        
+        <h1>Building AI Literacy and Strategic Clarity at the Industrial AI Inflection Point</h1>
+        <p class="case-study-intro">Nidec Drives is a global leader in industrial motor control and drive technologies, operating at the intersection of advanced engineering, manufacturing excellence, and mission-critical industrial applications.</p>
+    </section>
+
+    <div class="feature-image">
+        <img src="/images/Nidec_Drives_2.webp" alt="Nidec Drives AI Opportunity Pyramid developed by Enceladus.ai">
+    </div>
+
+    <article class="case-study-content">
+        <section class="content-section">
+            <h2>The Challenge</h2>
+            <p>AI has moved from emerging technology to competitive necessity. As AI adoption accelerates across manufacturing and automation, Nidec recognised the need to move beyond experimentation and build a shared, informed understanding of where AI can practically and safely create value.</p>
+            <p>For Nidec's senior leadership team, the challenge was not <em>whether</em> to use AI, but:</p>
+            <ul>
+                <li>Where AI could deliver real commercial and operational value</li>
+                <li>How to distinguish deployable AI from hype</li>
+                <li>How competitors such as Siemens, ABB, and Schneider Electric are embedding AI at scale</li>
+                <li>How to adopt AI within regulatory, ethical, and governance constraints</li>
+                <li>How AI aligns with Nidec's existing evaluation frameworks and data assets</li>
+            </ul>
+            <p>The leadership team needed a clear, shared mental model of AI, grounded in industrial reality — not generic technology narratives.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Our Approach</h2>
+            <p>Enceladus delivered a senior leadership AI Awareness and Strategy Session, tailored specifically to industrial manufacturing and drive technologies.</p>
+            <p>Rather than focusing on tools or demos, the session was designed to:</p>
+            <ul>
+                <li>Build AI literacy at board and leadership level</li>
+                <li>Provide strategic context for the 2025–26 AI inflection point</li>
+                <li>Translate complex AI concepts into engineering-familiar mental models</li>
+                <li>Anchor AI opportunity discussions in Nidec's existing governance structures</li>
+            </ul>
+            <p>The session combined strategic insight, competitive intelligence, and practical frameworks — ensuring discussions remained actionable rather than theoretical.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>What We Delivered</h2>
+            
+            <div class="deliverables-grid">
+                <div class="deliverable-card">
+                    <h4>1. The AI Inflection Point</h4>
+                    <p>Why 2025–26 marks a structural shift from AI experimentation to enterprise deployment, driven by transformer architectures, GPU-driven compute scale, internet-scale training data, and sustained global investment.</p>
+                </div>
+                <div class="deliverable-card">
+                    <h4>2. Competitive Landscape Intelligence</h4>
+                    <p>Analysis of how industrial peers are already deploying AI at scale: copilots for engineers, predictive maintenance, embedded intelligence within products, and agentic AI across supply chains.</p>
+                </div>
+                <div class="deliverable-card">
+                    <h4>3. AI Technology Landscape</h4>
+                    <p>Positioning Generative AI as one branch of a broader toolkit, including classical ML, computer vision, reinforcement learning, optimisation algorithms, and digital twins.</p>
+                </div>
+                <div class="deliverable-card">
+                    <h4>4. AI Opportunity Pyramid</h4>
+                    <p>A structured model to evaluate AI initiatives by complexity, value, and deployment horizon — from off-the-shelf copilots to bespoke embedded AI within products.</p>
+                </div>
+            </div>
+
+            <h3>Governance, Ethics & Regulation</h3>
+            <p>We mapped AI opportunities against the EU AI Act risk-based framework, responsible AI principles (fairness, transparency, accountability, privacy, safety), and Nidec's existing working groups and evaluation templates.</p>
+            
+            <div class="highlight-box">
+                <h4>Key Finding</h4>
+                <p>Nidec's governance structure is already well-aligned — AI can be adopted without reinventing decision-making processes.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>The Outcome</h2>
+            <p>By the end of the session, Nidec's leadership team had:</p>
+            
+            <div class="outcome-grid">
+                <div class="outcome-item">
+                    <p>A shared language and understanding of modern AI</p>
+                </div>
+                <div class="outcome-item">
+                    <p>Clarity on where AI is already delivering value in industrial settings</p>
+                </div>
+                <div class="outcome-item">
+                    <p>A grounded view of near-term opportunities vs longer-term bets</p>
+                </div>
+                <div class="outcome-item">
+                    <p>Confidence that AI adoption can proceed within existing governance</p>
+                </div>
+            </div>
+
+            <div class="quote-block">
+                <p>The session successfully shifted the conversation from "Should we use AI?" to "Where will AI create the most value — and what is the right approach for each opportunity?"</p>
+            </div>
+
+            <div class="next-steps">
+                <h3>What's Next</h3>
+                <p>Enceladus recommended a progression from leadership awareness into:</p>
+                <ul>
+                    <li>Facilitated discovery workshops across engineering, operations, and commercial teams</li>
+                    <li>Business case development using Nidec's existing evaluation framework</li>
+                    <li>Prioritisation of quick-win AI initiatives alongside strategic product-level opportunities</li>
+                </ul>
+            </div>
+        </section>
+    </article>
+
+    <section class="case-study-cta">
+        <h2>Need to prepare your leadership team for AI?</h2>
+        <p>Enceladus helps organisations move from AI awareness to AI advantage — with clarity, confidence, and control.</p>
+        <a href="/#contact" class="btn btn-primary">Start a conversation</a>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-text">© 2026 Enceladus.ai — Part of the PureNet Group</div>
+            <div class="footer-links">
+                <a href="https://www.purenet.co.uk" target="_blank">PureNet</a>
+                <a href="https://www.agency51.com" target="_blank">Agency51</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
