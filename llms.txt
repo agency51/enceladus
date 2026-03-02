@@ -11,6 +11,16 @@ We are an offshoot of Agency51 and PureNet, established UK ecommerce and digital
 - **Agent Development**: Purpose-built AI agents that automate complex workflows, integrated with existing systems
 - **Training & Enablement**: Practical, hands-on training that transforms how teams approach problems and produce work
 
+## Case Studies
+
+### Immediate Media
+AI Strategy & Opportunity Discovery for one of the UK's leading specialist content publishers. We helped leadership cut through AI hype to identify genuine opportunities across editorial, commercial, and operations, delivering a tailored AI opportunity framework and roadmap.
+- [Full case study](/case-studies/immediate-media.html)
+
+### Nidec Drives
+Building AI literacy and strategic clarity for a global leader in industrial motor control. We equipped senior leadership with a shared understanding of where AI can practically create value, including competitive intelligence and an AI Opportunity Pyramid framework.
+- [Full case study](/case-studies/nidec-drives.html)
+
 ## Approach
 
 Our engagement process follows four steps:
