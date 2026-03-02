@@ -365,8 +365,17 @@
         .case-study-image {
             width: 100%;
             height: 240px;
-            object-fit: cover;
+            object-fit: contain;
+            padding: 3rem;
             border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .case-study-image.immediate-media {
+            background: linear-gradient(135deg, #0088cc, #00c4cc);
+        }
+
+        .case-study-image.nidec-drives {
+            background-color: #1a4d3a;
         }
 
         .case-study-content {
@@ -901,7 +910,7 @@
 
             <div class="case-studies-grid">
                 <a href="/case-studies/immediate-media.html" class="case-study-card">
-                    <img src="/images/Immediate_media_2.webp" alt="Immediate Media AI Opportunity Framework" class="case-study-image">
+                    <img src="/images/Immediate_media_1.webp" alt="Immediate Media" class="case-study-image immediate-media">
                     <div class="case-study-content">
                         <div class="case-study-client">Immediate Media</div>
                         <h3>AI Strategy & Opportunity Discovery for a Leading Magazine Publisher</h3>
@@ -916,7 +925,7 @@
                 </a>
 
                 <a href="/case-studies/nidec-drives.html" class="case-study-card">
-                    <img src="/images/Nidec_Drives_2.webp" alt="Nidec Drives AI Opportunity Pyramid" class="case-study-image">
+                    <img src="/images/Nidec_Drives_1.webp" alt="Nidec Drives" class="case-study-image nidec-drives">
                     <div class="case-study-content">
                         <div class="case-study-client">Nidec Drives</div>
                         <h3>Building AI Literacy and Strategic Clarity at the Industrial AI Inflection Point</h3>
@@ -1018,7 +1027,7 @@
             <div class="contact-methods">
                 <div class="contact-method">
                     <div class="contact-method-label">Email</div>
-                    <a href="mailto:hello@enceladus.ai" class="contact-method-value">hello@enceladus.ai</a>
+                    <a href="/cdn-cgi/l/email-protection#2048454c4c4f60454e43454c414455530e4149" class="contact-method-value"><span class="__cf_email__" data-cfemail="6008050c0c0f20050e03050c010415134e0109">[email&#160;protected]</span></a>
                 </div>
                 <div class="contact-method">
                     <div class="contact-method-label">Phone</div>
@@ -1219,18 +1228,9 @@
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: formData.toString()
             })
-                .then(response => {
-                    if (response.ok) {
-                        contactForm.style.display = 'none';
-                        formSuccess.style.display = 'block';
-                    } else {
-                        throw new Error('Form submission failed');
-                    }
-                }).catch(error => {
-                    console.error('Error:', error);
-                    alert('There was a problem submitting the form. Please try again or email us directly.');
-                });
-            });
-        </script>
-    </body>
-</html>
+            .then(response => {
+                if (response.ok) {
+                    contactForm.style.display = 'none';
+                    formSuccess.style.display = 'block';
+                } else {
+                    throw new Error('Form submi

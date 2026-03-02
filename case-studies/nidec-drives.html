@@ -132,8 +132,20 @@
         }
 
         .client-logo {
-            height: 50px;
+            height: 60px;
             width: auto;
+        }
+
+        .client-logo-wrapper {
+            background-color: #1a4d3a;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+        }
+
+        .client-logo-wrapper img {
+            height: 40px;
+            width: auto;
+            display: block;
         }
 
         .case-study-label {
@@ -260,6 +272,21 @@
 
         .highlight-box ul {
             margin-bottom: 0;
+        }
+
+        /* Secondary Image */
+        .secondary-image {
+            margin: 3rem 0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .secondary-image img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
         }
 
         /* Deliverables Grid */
@@ -469,6 +496,9 @@
         </a>
         
         <div class="case-study-meta">
+            <div class="client-logo-wrapper">
+                <img src="/images/Nidec_Drives_1.webp" alt="Nidec Drives">
+            </div>
             <span class="case-study-label">Case Study</span>
         </div>
         
@@ -545,6 +575,10 @@
                 <li>Digital twins and intelligent simulation</li>
             </ul>
             <p>For manufacturing contexts, this helped identify faster ROI opportunities that don't rely on GenAI alone.</p>
+
+            <div class="secondary-image">
+                <img src="/images/Nidec_Drives_3.webp" alt="Industrial manufacturing">
+            </div>
 
             <h3>4. AI Opportunity Pyramid</h3>
             <p>We introduced a structured model to evaluate AI initiatives by complexity, value, and deployment horizon — from:</p>
