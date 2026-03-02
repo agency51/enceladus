@@ -58,6 +58,55 @@ Training programmes cover:
 - Best practices and governance
 - Ongoing support and mentoring
 
+## Case Studies
+
+### Immediate Media: AI Strategy & Opportunity Discovery for a Leading Magazine Publisher
+
+**Client:** Immediate Media is one of the UK's leading specialist content publishers, with a diverse portfolio of well-known consumer magazine brands spanning lifestyle, knowledge, hobbies, and entertainment, across both print and digital channels.
+
+**Challenge:** Senior leaders needed clarity on where AI could realistically add value across editorial, commercial, marketing, and operations—while navigating differences between digital and print workflows, and maintaining editorial quality and brand trust.
+
+**Approach:** Enceladus delivered a senior-level AI awareness and opportunity discovery consultancy covering:
+- The AI inflection point and what it means for publishers
+- AI capability landscape grounded in publishing use cases
+- Opportunity mapping across the publishing value chain
+- Online vs offline considerations
+- Governance, ethics, and trust frameworks
+
+**Solution:** A tailored AI strategy and opportunity framework including:
+- Clear taxonomy of AI opportunities from low-risk productivity gains to strategic initiatives
+- Publisher-specific AI use cases, current and emerging
+- Build vs buy vs partner guidance
+- Responsible AI adoption roadmap
+- Shared language and mental model for leadership teams
+
+**Impact:** Immediate Media moved from abstract interest to concrete, prioritised opportunities with confidence in making informed AI investment decisions.
+
+- [Full case study](/case-studies/immediate-media.html)
+
+### Nidec Drives: Building AI Literacy and Strategic Clarity at the Industrial AI Inflection Point
+
+**Client:** Nidec Drives is a global leader in industrial motor control and drive technologies, operating at the intersection of advanced engineering, manufacturing excellence, and mission-critical industrial applications.
+
+**Challenge:** Senior leadership needed a shared mental model of AI grounded in industrial reality—understanding where AI could deliver real value, how to distinguish deployable AI from hype, and how competitors like Siemens, ABB, and Schneider Electric are embedding AI at scale.
+
+**Approach:** Enceladus delivered a senior leadership AI Awareness and Strategy Session tailored to industrial manufacturing, designed to:
+- Build AI literacy at board and leadership level
+- Provide strategic context for the 2025–26 AI inflection point
+- Translate AI concepts into engineering-familiar mental models
+- Anchor discussions in existing governance structures
+
+**Deliverables:**
+- The AI Inflection Point: Why 2025–26 marks a structural shift to enterprise AI deployment
+- Competitive Landscape Intelligence: How industrial peers are deploying AI at scale
+- AI Technology Landscape: Positioning GenAI within the broader AI toolkit including ML, computer vision, reinforcement learning, and digital twins
+- AI Opportunity Pyramid: Structured model to evaluate initiatives by complexity, value, and deployment horizon
+- Governance mapping against EU AI Act and responsible AI principles
+
+**Outcome:** Leadership gained a shared language for AI, clarity on near-term vs longer-term opportunities, and confidence that AI adoption can proceed within existing governance frameworks.
+
+- [Full case study](/case-studies/nidec-drives.html)
+
 ## Our Approach
 
 Every engagement follows a clear path from understanding to delivery:
@@ -104,13 +153,13 @@ This heritage matters. We understand that AI implementation isn't about technolo
 ## Contact Information
 
 - **Email**: hello@enceladus.ai
-- **Phone**: 01onal 636 677
+- **Phone**: 01904 636 677
 - **Location**: York, UK
 - **Website**: https://enceladus.ai
 
 ## Technical Details
 
-- Single-page marketing website
+- Multi-page marketing website with case study pages
 - Static HTML hosted on Netlify
 - Neural network canvas animation (pure JavaScript)
 - Contact form with Netlify Forms integration
