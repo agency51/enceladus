@@ -62,48 +62,157 @@ Training programmes cover:
 
 ### Immediate Media: AI Strategy & Opportunity Discovery for a Leading Magazine Publisher
 
-**Client:** Immediate Media is one of the UK's leading specialist content publishers, with a diverse portfolio of well-known consumer magazine brands spanning lifestyle, knowledge, hobbies, and entertainment, across both print and digital channels.
+**Client**
 
-**Challenge:** Senior leaders needed clarity on where AI could realistically add value across editorial, commercial, marketing, and operations—while navigating differences between digital and print workflows, and maintaining editorial quality and brand trust.
+Immediate Media is one of the UK's leading specialist content publishers, with a diverse portfolio of well-known consumer magazine brands spanning lifestyle, knowledge, hobbies, and entertainment, across both print and digital channels.
 
-**Approach:** Enceladus delivered a senior-level AI awareness and opportunity discovery consultancy covering:
-- The AI inflection point and what it means for publishers
-- AI capability landscape grounded in publishing use cases
-- Opportunity mapping across the publishing value chain
-- Online vs offline considerations
-- Governance, ethics, and trust frameworks
+**The Challenge**
 
-**Solution:** A tailored AI strategy and opportunity framework including:
-- Clear taxonomy of AI opportunities from low-risk productivity gains to strategic initiatives
-- Publisher-specific AI use cases, current and emerging
-- Build vs buy vs partner guidance
-- Responsible AI adoption roadmap
-- Shared language and mental model for leadership teams
+Like many publishers, Immediate Media recognised that AI had moved rapidly from experimentation to genuine commercial opportunity — but the pace of change created uncertainty.
 
-**Impact:** Immediate Media moved from abstract interest to concrete, prioritised opportunities with confidence in making informed AI investment decisions.
+Senior leaders were asking fundamental questions:
+- Where can AI realistically add value across editorial, commercial, marketing, and operations?
+- How should AI be approached differently for digital products versus print workflows?
+- Which opportunities represent quick wins and which require deeper strategic investment?
+- How can innovation be pursued without compromising editorial quality, brand trust, or regulatory compliance?
+
+Immediate Media engaged Enceladus to provide clarity, structure, and practical direction; cutting through hype to identify where AI could be deployed safely and effectively.
+
+**Our Approach**
+
+Enceladus delivered a senior-level AI awareness and opportunity discovery consultancy, designed specifically for the needs of a modern magazine publisher.
+
+The engagement combined strategic insight with hands-on, practical examples, covering:
+
+- The AI inflection point: Why 2025–26 represents a shift from experimentation to embedded AI systems — and what this means for publishers.
+- AI capability landscape: A clear explanation of generative AI, copilots, retrieval-based systems, and emerging agentic workflows, grounded in real-world publishing use cases.
+- Opportunity mapping across the publishing value chain: Identifying where AI could support editorial research and content ideation, audience insight and personalisation, subscription growth and retention, advertising and commercial operations, and print production and back-office efficiency.
+- Online vs offline considerations: Exploring how AI opportunities differ between digital platforms (web, apps, newsletters, subscriptions) and print-led workflows (commissioning, layout, production, rights, and archives).
+- Governance, ethics, and trust: Addressing responsible AI use, IP protection, data privacy, and the importance of human editorial oversight — particularly critical in trusted media brands.
+
+Rather than prescribing technology, the focus was on decision-making frameworks — enabling leaders to evaluate AI opportunities confidently and consistently.
+
+**The Solution**
+
+Enceladus delivered a tailored AI strategy and opportunity framework that Immediate Media could apply across its brands and functions.
+
+Key outputs included:
+- A clear taxonomy of AI opportunities — from low-risk productivity gains to higher-impact strategic initiatives
+- Practical examples of publisher-specific AI use cases, both live today and emerging over the next 2–3 years
+- Guidance on build vs buy vs partner decisions
+- A roadmap showing how AI adoption can evolve responsibly over time
+- Alignment with regulatory and ethical expectations relevant to media organisations
+
+Crucially, the consultancy equipped leadership teams with a shared language and mental model for AI — accelerating internal conversations and decision-making.
+
+**The Impact**
+
+The engagement helped Immediate Media:
+- Move from abstract interest in AI to concrete, prioritised opportunities
+- Understand where AI can augment editorial excellence, not undermine it
+- Identify early wins that improve efficiency without cultural disruption
+- Build confidence in making informed AI investment decisions
+- Establish a foundation for longer-term AI-enabled product and content innovation
+
+Rather than chasing trends, Immediate Media gained a pragmatic, publisher-first view of AI — rooted in commercial value, brand trust, and operational reality.
+
+**Why Enceladus**
+
+Enceladus combines deep AI expertise with real-world business understanding — translating complex technology into practical, strategic insight.
+
+For Immediate Media, this meant:
+- No hype
+- No vendor bias
+- No one-size-fits-all answers
+
+Just clear thinking, grounded examples, and a framework leaders could actually use.
 
 - [Full case study](/case-studies/immediate-media.html)
 
-### Nidec Drives: Building AI Literacy and Strategic Clarity at the Industrial AI Inflection Point
+### Nidec Drives: Building AI literacy and strategic clarity at the industrial AI inflection point
 
-**Client:** Nidec Drives is a global leader in industrial motor control and drive technologies, operating at the intersection of advanced engineering, manufacturing excellence, and mission-critical industrial applications.
+**Client**
 
-**Challenge:** Senior leadership needed a shared mental model of AI grounded in industrial reality—understanding where AI could deliver real value, how to distinguish deployable AI from hype, and how competitors like Siemens, ABB, and Schneider Electric are embedding AI at scale.
+Nidec Drives is a global leader in industrial motor control and drive technologies, operating at the intersection of advanced engineering, manufacturing excellence, and mission-critical industrial applications.
 
-**Approach:** Enceladus delivered a senior leadership AI Awareness and Strategy Session tailored to industrial manufacturing, designed to:
+As AI adoption accelerates across manufacturing and automation, Nidec recognised the need to move beyond experimentation and build a shared, informed understanding of where AI can practically and safely create value, both internally and within future product offerings.
+
+**The Challenge**
+
+AI has moved from emerging technology to competitive necessity.
+
+For Nidec's senior leadership team, the challenge was not whether to use AI, but:
+- Where AI could deliver real commercial and operational value
+- How to distinguish deployable AI from hype
+- How competitors such as Siemens, ABB, and Schneider Electric are embedding AI at scale
+- How to adopt AI within regulatory, ethical, and governance constraints
+- How AI aligns with Nidec's existing evaluation frameworks and data assets
+
+The leadership team needed a clear, shared mental model of AI, grounded in industrial reality, not generic technology narratives.
+
+**Our Approach**
+
+Enceladus delivered a senior leadership AI Awareness and Strategy Session, tailored specifically to industrial manufacturing and drive technologies.
+
+Rather than focusing on tools or demos, the session was designed to:
 - Build AI literacy at board and leadership level
 - Provide strategic context for the 2025–26 AI inflection point
-- Translate AI concepts into engineering-familiar mental models
-- Anchor discussions in existing governance structures
+- Translate complex AI concepts into engineering-familiar mental models
+- Anchor AI opportunity discussions in Nidec's existing governance structures
 
-**Deliverables:**
-- The AI Inflection Point: Why 2025–26 marks a structural shift to enterprise AI deployment
-- Competitive Landscape Intelligence: How industrial peers are deploying AI at scale
-- AI Technology Landscape: Positioning GenAI within the broader AI toolkit including ML, computer vision, reinforcement learning, and digital twins
-- AI Opportunity Pyramid: Structured model to evaluate initiatives by complexity, value, and deployment horizon
-- Governance mapping against EU AI Act and responsible AI principles
+The session combined strategic insight, competitive intelligence, and practical frameworks — ensuring discussions remained actionable rather than theoretical.
 
-**Outcome:** Leadership gained a shared language for AI, clarity on near-term vs longer-term opportunities, and confidence that AI adoption can proceed within existing governance frameworks.
+**What We Delivered**
+
+1. The AI Inflection Point
+
+We outlined why 2025–26 marks a structural shift from AI experimentation to enterprise deployment, driven by transformer architectures, GPU-driven compute scale, internet-scale training data, and sustained global investment rather than cyclical hype.
+
+This framed AI as a capability step-change, not a transient trend.
+
+2. Competitive Landscape Intelligence
+
+We analysed how industrial peers are already deploying AI at scale, including AI copilots for engineers, predictive maintenance and quality inspection, embedded intelligence within industrial products, and agentic AI operating across supply chains and operations.
+
+This reframed AI from "future roadmap" to current competitive baseline.
+
+3. AI Technology Landscape — Beyond Generative AI
+
+The session positioned Generative AI as one branch of a broader AI toolkit, highlighting classical machine learning, computer vision, reinforcement learning, optimisation algorithms, and digital twins and intelligent simulation.
+
+For manufacturing contexts, this helped identify faster ROI opportunities that don't rely on GenAI alone.
+
+4. AI Opportunity Pyramid
+
+We introduced a structured model to evaluate AI initiatives by complexity, value, and deployment horizon — from off-the-shelf copilots, to integrated enterprise AI systems, to bespoke and embedded AI within products.
+
+This supported prioritisation discussions grounded in commercial realism.
+
+5. Governance, Ethics & Regulation
+
+We mapped AI opportunities against the EU AI Act risk-based framework, responsible AI principles (fairness, transparency, accountability, privacy, safety), and Nidec's existing working groups and evaluation templates.
+
+The key outcome: Nidec's governance structure is already well-aligned — AI can be adopted without reinventing decision-making processes.
+
+**The Outcome**
+
+By the end of the session, Nidec's leadership team had:
+- A shared language and understanding of modern AI
+- Clarity on where AI is already delivering value in industrial settings
+- A grounded view of near-term opportunities vs longer-term bets
+- Confidence that AI adoption can proceed within existing governance
+- A clear next step: moving from awareness to cross-functional discovery and business case development
+
+The session successfully shifted the conversation from "Should we use AI?" to "Where will AI create the most value — and what is the right approach for each opportunity?"
+
+**What's Next**
+
+Enceladus recommended a progression from leadership awareness into:
+- Facilitated discovery workshops across engineering, operations, and commercial teams
+- Business case development using Nidec's existing evaluation framework
+- Prioritisation of quick-win AI initiatives alongside strategic product-level opportunities
+
+Need to prepare your leadership team for AI decision-making? Enceladus helps organisations move from AI awareness to AI advantage — with clarity, confidence, and control.
 
 - [Full case study](/case-studies/nidec-drives.html)
 
